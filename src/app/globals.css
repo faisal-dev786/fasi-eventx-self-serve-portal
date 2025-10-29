@@ -1,5 +1,147 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+/* Aileron font */
+@font-face {
+  font-family: "Aileron-SemiBold";
+  src: url("../../public//fonts/Aileron/Aileron-SemiBold.otf")
+    format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Aileron-Heavy";
+  src: url("../../public//fonts/Aileron/Aileron-Heavy.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Aileron-Bold";
+  src: url("../../public//fonts/Aileron/Aileron-Bold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Aileron-Black";
+  src: url("../../public//fonts/Aileron/Aileron-Black.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+/*  */
+/*  avenir-roman*/
+@font-face {
+  font-family: "avenir-roman";
+  src: url("../../public//fonts/avenir-roman.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+/*  */
+@font-face {
+  font-family: "greycliff-cf-medium";
+  src: url("../../public//fonts/greycliff-cf-medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Acumin Pro Medium";
+  src: url("/fonts/acuminpromedium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Acumin Pro Semi Bold";
+  src: url("/fonts/acumin-pro/acumin-pro-semibold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Acumin Pro Condensed Light Italic";
+  src: url("/fonts/acumin-pro/Acumin_Pro_Condensed_Light_Italic.otf")
+    format("opentype");
+}
+@font-face {
+  font-family: "Greycliff Bold";
+  src: url("/fonts/login/greycliff-cf-bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Greycliff Medium";
+  src: url("/fonts/login/greycliff-cf-medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Greycliff Extra Bold";
+  src: url("/fonts/login/GreycliffCF-ExtraBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Acumin Pro Condensed SemiBold";
+  src: url("/fonts/acuminprocondsemibol.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Acumin Pro Condensed Medium";
+  src: url("/fonts/acumin-pro/AcuminProCond-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Acumin Pro Condensed Bold";
+  src: url("/fonts/Acumin_Variable_Concept/Acumin_Pro_Condensed.ttf")
+    format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Acumin Pro Condensed Light Italic";
+  src: url("/fonts/acumin-pro/Acumin_Pro_Condensed_Light_Italic.otf")
+    format("opentype");
+}
+@font-face {
+  font-family: "Poppins Bold";
+  src: url("/fonts/Poppins/Poppins-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Poppins Medium";
+  src: url("/fonts/Poppins/Poppins-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Poppins Regular";
+  src: url("/fonts/Poppins/Poppins-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Poppins SemiBold";
+  src: url("/fonts/Poppins/Poppins-SemiBold.ttf") format("truetype");
+}
+/* Aileron font */
+.aileron-semibold {
+  font-family: "Aileron-SemiBold", sans-serif;
+}
+.aileron-heavy {
+  font-family: "Aileron-Heavy", sans-serif;
+}
+.aileron-bold {
+  font-family: "Aileron-Bold", sans-serif;
+}
+.aileron-black {
+  font-family: "Aileron-Black", sans-serif;
+}
+.avenir-roman {
+  font-family: "avenir-roman", sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
 * {
   margin: 0;
   padding: 0;
@@ -38,7 +180,7 @@ img {
 
 @font-face {
   font-family: "Aileron";
-  src: url("../app/assets/fonts/Aileron-Regular.otf") format("opentype");
+  src: url("/fonts/Aileron-Regular.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
@@ -89,8 +231,8 @@ img {
 }
 .penta-heading {
   font-family: var(--aileron-font);
-  /* 17px */
-  font-size: 1.1rem;
+  /* 20.8px */
+  font-size: 1.3rem;
   font-weight: var(--semi-bold);
   /* white */
   color: var(--white);
@@ -113,8 +255,8 @@ img {
 }
 .secondary-para {
   font-family: var(--aileron-font);
-  /* 14px */
-  font-size: 0.8rem;
+  /* 18.67px */
+  font-size: 1.1rem;
   font-weight: var(--semi-bold);
   /* #1B2B3E */
   color: var(--more-blue);
@@ -126,6 +268,14 @@ img {
   font-weight: var(--medium);
   /* white */
   color: var(--white);
+}
+.tertiary-para1 {
+  font-family: var(--aileron-font);
+  /* 11.24px */
+  font-size: 0.7rem;
+  font-weight: var(--medium);
+  /* white */
+  color: var(--black);
 }
 .quaternary-para {
   font-family: var(--aileron-font);
@@ -144,193 +294,13 @@ img {
   color: var(--white);
 }
 
-.steps-cols {
-  display: grid;
-  grid-template-columns: 62% 38%;
-  gap: 0.4rem;
-}
-.stepper-container {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: start;
-  gap: 1.8rem;
-}
-.event-h {
-  margin-top: 1.5rem;
-}
-.event-p {
-  margin-bottom: 4rem;
-}
-.card-container {
-  width: 200px;
-  height: 306px;
-  border: 1px solid #c4c4c4;
-  border-radius: 0.5rem;
-}
-.blue-box {
-  width: 120px;
-  height: 80px;
-  background-color: #0066b4;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0 0.5rem;
-}
-.pop {
-  width: 230px;
-}
-.cards {
-  display: flex;
-  align-items: center;
-  gap: 2rem;
-  flex-wrap: wrap;
-  margin: 2rem 0rem 3rem 0rem;
-}
-.btnCard {
-  position: relative;
-  border: 3px solid #0066b3;
-}
-.sellerBtn {
-  background-color: #299b13;
-  border-radius: 3rem;
-  border: none;
-  padding: 0.3rem 1.5rem;
-  position: absolute;
-  top: -14px;
-  right: -24px;
-}
-/* step 2 */
-.imgBtn {
-  background-color: #2097d8;
-  border-radius: 3rem;
-  border: none;
-  padding: 0.6rem 3rem;
-  text-transform: uppercase;
-}
-.Step-2-Btn {
-  background-color: white;
-  border-radius: 3rem;
-  border: 1px solid #c4c4c4;
-  padding: 0.6rem 3rem;
-  text-transform: uppercase;
-}
-.step-2-btn-container {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  margin: 3rem 0rem 3rem 0.5rem;
-  flex-wrap: wrap;
-}
-.postcode-input {
-  border: 1px solid #c4c4c4;
-  border-radius: 0.4rem;
-  padding: 0.8rem 0.5rem;
-  width: 70%;
-  margin-top: 2rem;
-}
-/* step 4 */
-.step-4-container {
-  margin-top: 2.1rem;
-}
-.choose-input {
-  border: 1px solid #c4c4c4;
-  border-radius: 0.4rem;
-  padding: 0.8rem 0.5rem;
-  width: 100%;
-}
-.choose-icons {
-  display: flex;
-  align-items: center;
-  gap: 0.8rem;
-  position: absolute;
-  right: 5px;
-  top: 8px;
-  cursor: pointer;
-}
-.choose-icons img {
-  width: 25px;
-}
-.choose-p {
-  margin-bottom: 3rem;
-}
-.step-5 {
-  margin-top: 3rem;
-}
-/* summary */
-.sum-container {
-  background-color: #f4f4f4;
-  width: 100%;
-  padding: 0.6rem 1.5rem;
-}
-.slot-p {
-  border-bottom: 2px solid black;
-  width: 170px;
-}
-.sum-h {
-  background-color: #4b4b4b;
-  padding: 0.5rem;
-}
-.slot-1-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 1rem;
-}
-.advert {
-  border-top: 1px solid #c4c4c4;
-  border-bottom: 1px solid #c4c4c4;
-  padding: 1rem 0rem;
-}
-.paymentBtn {
-  background-color: #299b13;
-  border-radius: 3rem;
-  border: none;
-  padding: 0.7rem 2.5rem;
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  cursor: pointer;
-}
-@media all and (max-width: 992px) {
-  .primary-heading {
-    font-size: 1.6rem;
-  }
-  .secondary-heading {
-    font-size: 1.5rem;
-  }
-  .tertiary-heading {
-    font-size: 1.2rem;
-  }
-  .cards {
-    justify-content: center;
-  }
-  .step-2-btn-container {
-    justify-content: center;
-  }
-  .steps-cols {
-    grid-template-columns: 100%;
-    gap: 0.4rem;
-  }
-  .secondary-para {
-    font-size: 0.8rem;
-  }
-  .penta-heading {
-    font-size: 1rem;
-  }
-  .paymentBtn {
-    padding: 0.7rem 1.5rem;
-  }
-}
-
 /* sidebar styling */
 
 .sidebar {
   margin-left: 15px;
   margin-top: 130px;
-  width: 85px;
-  height: 90%;
+  width: 100px;
+  height: 78%;
   background: #6931f7;
   position: absolute;
   top: 0;
@@ -359,11 +329,12 @@ img {
 }
 @media (max-width: 992px) {
   .sidebar {
-    left: -60px;
+    left: -95px;
     box-shadow: none;
     margin-left: 0px;
     margin-top: 0px;
-    width: 60px;
+    width: 95px;
+    height: 75%;
   }
   .sidebar.open {
     left: 0;
@@ -379,7 +350,7 @@ img {
     cursor: pointer;
     padding: 10px;
     position: absolute;
-    left: 70px;
+    left: 90px;
   }
 }
 /* sidebar styling end */

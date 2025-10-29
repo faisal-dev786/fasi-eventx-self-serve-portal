@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 49.32 38.77">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #299b13;
+      }
+    </style>
+  </defs>
+  <g id="PRICE_PANEL" data-name="PRICE PANEL">
+    <g>
+      <rect class="cls-1" x="0" width="49.32" height="38.77" rx="12" ry="12"/>
+      <image width="99" height="99" transform="translate(11.54 7.44) scale(.27)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGMAAABiCAYAAABEZ20wAAAACXBIWXMAACleAAApXgGVYA7ZAAAEOElEQVR4nO2d63lTMQyGJR4GSDc43QAmIN0ANkg3gAkoE3SElglgg3QDukGyQbvBx4+Uh1ss59iSbJ/o/Vn32HLlzxf5UqIgCP6HWxtQAwAc+zkzD1mvV60NCH4TzuiIcEZHHHUGgC3mceNs9yLRUsZnpXzOGrVuCsBaK69zRXPM2CrmdZaoDuChjjq0Z1OhjgqOrlRfWvgkfPeOiDaJtAtmfq6y6kSWtgIvNjr1hyCiZ2a+KM1Xw4ZRnVHTTT0kfr4CsKrI92ypakGCOvbMfKmUlwulagIwEdEukTzr71DrjCciOqqCuZUb2BlJu+fmWTubSnodwOJnVgA2QvL3uflVD3RaLWNEZWiqgkhnnXGVSgBwq5B/lwC4E5LvS/JUmQJqtJDRlKGtCjUAvG8RXk8VaFXeH+XuhPpuSvNV82CLltJi0ZeZylaVrRmb+pJKWFgAMekIIrp2syKHIF2TrsO7mwKw8a5jMZC3a9cG5Xk7Q2KyKrcYz5bj6QwAd551UwHyTEM1gOjsDInJosxqAKwEo5+Uy3JxRqaBSQN6ewA8CcarqcPDGQAmoS6qZVkdYnsrpP0wKtMKqeXvvYyowqM1OeQ/zlRWAsBaqIdKeL2Vs1+QAoX9Yd2qjPO+s7bfFQA3Qn26Dq9LjoCRKsxDvVIr6vUUBw7T1SmVbmW3x5WA+1QCOjy9jsMCbhJ+xSwY6NIyR1JHbjywtNfrssxDKgEdhdeR3xj6YFm+W6scQR0tVUHke40sef62B3WcMEOadSivBE9lrIgoGShsrY7WqiByVEbuZDoans9FPvJqrgp3IIdIVMPrM2wSo7InOEoN964h1x30hmf32eIe+KcGZZay9yyshTLEUENPeE8qWihjalBmCdIGmQmuzvAcDCu5ZuZH70JfexV0QgCuB56J6NLrgui/dBEOIeFoqBOPzDz7csuQAHjjvVEzIhFC7wjzATwTlm7dPXVFbLt2hKkyMuNBP3cZOsG0ZYYq5mGmDMgH1ZYXklbA8u5bqGImJsrIHMEJVXiC9HWyUWJTTbCKTaW2UKfRNpdSWHS1VgP4V6N8F02TAXwJjKQMorG2V7vAetG3JaK1ZRmtGE0ZxMxXJDyBFPyN6+JrkN2+k2Dmh9Y2BEEQBEEQBO7g8NLO7kgUt6uHiJF+nuKmtW0qCOH0rip7go3AyA/uJ9TQnUNm2DimQ5B5kaaXihbYOF40uqSScL5KhvwVshQbTzurqKika6vD/H8O+QuTRmMVtV0b5avNuvA7k+7UyhlT6Yfo9SVMB6ycsS/9kJmLvx0dE2cw871FvgaUnoJ3v2JWBeTnVFN8a2BnCZO3nVVAfmz4KI3svJ1p5pgH8TBv4Tc1tHN3oo1NntRQA/k1RxcVRF4hXQU1q8DhkuUWh7Fkh8NTpd3FeXBQ8/bFATsAH1vbFARBEARBEARBECyAn3cAGNZwL3GrAAAAAElFTkSuQmCC"/>
+    </g>
+  </g>
+</svg>

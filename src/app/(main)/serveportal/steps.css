@@ -32,13 +32,13 @@
 
 .green-line {
   background-color: #0a9928;
-  height: 128px;
+  height: 114px;
 }
 
 /* Red Dotted Lines with Different Heights */
 .red-line-1 {
   border-left: 3px dotted red;
-  height: 380px; /* Height for the first red line */
+  height: 353px; /* Height for the first red line */
 }
 
 .red-line-2 {
@@ -87,4 +87,10 @@
     border-top: 3px dotted red;  /* Change to horizontal dotted lines */
     border-left: none;
   }
+}
+@media (min-width: 1024px) and (max-width: 1366px) {
+
+.red-line-1{
+    height: 660px;
+}
 }
