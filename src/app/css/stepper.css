@@ -1,0 +1,90 @@
+.stepper {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  position: relative;
+}
+
+.step-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.step {
+  width: 35px;
+  height: 35px;
+  background-color: #0a9928;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  z-index: 1;
+}
+
+.line {
+  width: 3px;
+  margin: 0.8rem auto;
+}
+
+.green-line {
+  background-color: #0a9928;
+  height: 128px;
+}
+
+/* Red Dotted Lines with Different Heights */
+.red-line-1 {
+  border-left: 3px dotted red;
+  height: 380px; /* Height for the first red line */
+}
+
+.red-line-2 {
+  border-left: 3px dotted red;
+  height: 112px; /* Height for the second red line */
+}
+
+.red-line-3 {
+  border-left: 3px dotted red;
+  height: 200px; /* Height for the third red line */
+}
+
+
+
+/* 🔁 RESPONSIVE: Switch to horizontal layout on mobile */
+@media (max-width: 992px) {
+  .stepper {
+    flex-direction: row;  /* Switch to row for mobile */
+    justify-content: center;
+  }
+
+  .step-container {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .step {
+    margin: 0 1px;
+  }
+
+  .line {
+    width:22px; /* Horizontal line on mobile */
+    height: 3px;
+    margin: 0rem 5px;
+  }
+
+  .green-line {
+    background-color: #0a9928;
+    border: none;
+  }
+
+  .red-line-1,
+  .red-line-2,
+  .red-line-3,
+  .red-line-4 {
+    border-top: 3px dotted red;  /* Change to horizontal dotted lines */
+    border-left: none;
+  }
+}
